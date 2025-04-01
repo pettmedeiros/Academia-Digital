@@ -6,14 +6,14 @@ import com.academia_digital.entity.Form.AvaliacaoFisicaForm;
 import com.academia_digital.entity.Form.AvaliacaoFisicaUpdateForm;
 import com.academia_digital.repository.AlunoRepository;
 import com.academia_digital.repository.AvaliacaoFisicaRepository;
-import com.academia_digital.service.IAvalicaoFisicaService;
+import com.academia_digital.service.IAvaliacaoFisicaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class AvaliacaoFisicaServiceImpl implements IAvalicaoFisicaService {
+public class AvaliacaoFisicaServiceImpl implements IAvaliacaoFisicaService {
 
     @Autowired
     private AvaliacaoFisicaRepository avaliacaoFisicaRepository;

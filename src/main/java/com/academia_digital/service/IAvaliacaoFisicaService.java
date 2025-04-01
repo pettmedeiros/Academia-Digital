@@ -6,7 +6,7 @@ import com.academia_digital.entity.Form.AvaliacaoFisicaUpdateForm;
 
 import java.util.List;
 
-public interface IAvalicaoFisicaService {
+public interface IAvaliacaoFisicaService {
     /**
      * Cria uma Avaliação Física e salva no banco de dados.
      * @param form - formulário referente aos dados para criação da Avaliação Física no banco de dados.

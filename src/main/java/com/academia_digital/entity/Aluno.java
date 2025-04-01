@@ -34,7 +34,7 @@ public class Aluno {
 
     @OneToMany(mappedBy = "aluno", fetch = FetchType.LAZY) // relacionamento de um aluno para varias avaliaçções fisicas
     @JsonIgnore
-    private List<AvaliacaoFisica> avalicoes = new ArrayList<>();
+    private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -76,11 +76,12 @@ public class Aluno {
         this.dataDeNascimento = dataDeNascimento;
     }
 
-    public List<AvaliacaoFisica> getAvalicoes() {
-        return avalicoes;
+    public List<AvaliacaoFisica> getAvaliacoes() {
+        return avaliacoes;
     }
 
     public void setAvalicoes(List<AvaliacaoFisica> avalicoes) {
-        this.avalicoes = avalicoes;
+        this.avaliacoes = avalicoes;
     }
+
 }

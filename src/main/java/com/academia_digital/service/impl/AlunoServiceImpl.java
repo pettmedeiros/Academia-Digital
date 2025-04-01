@@ -4,6 +4,7 @@ import com.academia_digital.entity.Aluno;
 import com.academia_digital.entity.AvaliacaoFisica;
 import com.academia_digital.entity.Form.AlunoForm;
 import com.academia_digital.entity.Form.AlunoUpdateForm;
+import com.academia_digital.infra.utils.JavaTimeUtils;
 import com.academia_digital.repository.AlunoRepository;
 import com.academia_digital.service.IAlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
