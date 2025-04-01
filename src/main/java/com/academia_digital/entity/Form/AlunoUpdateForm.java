@@ -2,11 +2,9 @@ package com.academia_digital.entity.Form;
 
 import java.time.LocalDate;
 
-public class AlunoForm {
+public class AlunoUpdateForm {
 
-    private  String nome;
-
-    private String cpf;
+    private String nome;
 
     private String bairro;
 
