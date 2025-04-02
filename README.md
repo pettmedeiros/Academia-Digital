@@ -1,4 +1,4 @@
-# Gerenciamento de Academia, cadastros de alunos, matriculas e avaliações fisicas
+# Gerenciamento de SIstema para Academia, cadastros de alunos, matriculas e avaliações fisicas
 Este projeto é uma API REST para gerenciar cadastros de alunos, matricuoas e avaliações físicas,desenvolvida com Spring Boot e Spring Data JPA.
 
 ## Visão Geral
