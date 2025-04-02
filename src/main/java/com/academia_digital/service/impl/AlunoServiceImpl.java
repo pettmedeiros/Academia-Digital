@@ -16,7 +16,6 @@ import java.util.List;
 @Service
 public class AlunoServiceImpl implements IAlunoService {
 
-
     @Autowired
     private AlunoRepository repository;
 
@@ -65,5 +64,4 @@ public class AlunoServiceImpl implements IAlunoService {
         return aluno.getAvaliacoes();
 
     }
-
 }

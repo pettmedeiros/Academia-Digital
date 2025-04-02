@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-@Data
+//@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -22,6 +22,29 @@ public class Matricula {
     @JoinColumn(name = "aluno_id")
     private Aluno aluno;
 
-
     private LocalDateTime dataDaMatricula = LocalDateTime.now();
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Aluno getAluno() {
+        return aluno;
+    }
+
+    public void setAluno(Aluno aluno) {
+        this.aluno = aluno;
+    }
+
+    public LocalDateTime getDataDaMatricula() {
+        return dataDaMatricula;
+    }
+
+    public void setDataDaMatricula(LocalDateTime dataDaMatricula) {
+        this.dataDaMatricula = dataDaMatricula;
+    }
 }
